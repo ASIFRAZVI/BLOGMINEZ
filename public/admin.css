@@ -1,0 +1,28 @@
+/* Example CSS for styling form elements */
+input[type="text"],
+textarea {
+  padding: 10px;
+  border: 1px solid #b3a1a1;
+  border-radius: 5px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }

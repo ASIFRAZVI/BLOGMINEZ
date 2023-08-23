@@ -1,0 +1,76 @@
+/* Reset some default styles and apply a basic background */
+body, h1, p {
+    margin: 40px;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #bec6e6;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3e2d7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the header */
+  h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style paragraphs */
+  p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the contact details */
+  .contact-details {
+    margin-top: 20px;
+  }
+  
+  .contact-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the back button */
+  .back-btn {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  .back-btn a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .back-btn a:hover {
+    background-color: #555;
+  }
+  /* Footer styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2.5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
